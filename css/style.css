@@ -1,0 +1,98 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    height: 100%;
+    background-color: rgb(168, 99, 153);
+    font-family: sans-serif;
+    background-size: auto;
+}
+
+.main {
+    width: 400px;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+
+}
+#date{
+    border: 1px solid pink;
+    margin: auto;
+    font-size: 2rem;
+    color: #fff;
+
+}
+h1 {
+    text-align: center;
+    color: #fff;
+    margin: auto;
+}
+
+form {
+    background-color: #fff;
+    padding: 15px;
+}
+
+input[type="text"] {
+    width: 310px;
+    height: 30px;
+    outline: 0;
+    border: none;
+    font-size: 1.5em;
+    background: #fff;
+    color: #0d1313;
+}
+
+button {
+    font-size: 1.5em;
+    color: #ff53d4;
+    background-color: #fff;
+    outline: 0;
+    border: none;
+    width: 50px;
+}
+
+.tasksBoard {
+    background-color: #fff;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    display: none;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    border-bottom: 1px solid #ff53d4;;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 1.3em;
+    color: #333;
+}
+
+a {
+    float: right;
+    text-align: right;
+    color: #3ee41d;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 5px 5px;
+}
+
+.delete {
+    background-color: #96490a;
+    padding: 0px 3px 0px 3px;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 5px;
+}
+
